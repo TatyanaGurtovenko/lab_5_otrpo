@@ -19,10 +19,10 @@ Python-скрипт для сбора данных из VK и сохранени
 
 3. Создайте файл .env в корневой папке проекта и добавьте в него следующие переменные:
     ```bash
-  NEO4J_URL=bolt://localhost:7687
-  NEO4J_USER=neo4j
-  NEO4J_PASSWORD=your_neo4j_password
-  AUTH_TOKEN=your_secret_token
+      NEO4J_URL=bolt://localhost:7687
+      NEO4J_USER=neo4j
+      NEO4J_PASSWORD=your_neo4j_password
+      AUTH_TOKEN=your_secret_token
     ```
 
 4. Запустите приложение с помощью Uvicorn:
